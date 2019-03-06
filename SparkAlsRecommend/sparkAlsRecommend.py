@@ -1,7 +1,7 @@
 # coding:utf-8
 '''
 提交方法：
-spark-submit --py-files /Users/ruicheng/PycharmProjects/movieLens/movieLensSql.py --master spark://ruichengdeMacBook-Pro.local:7077 --total-executor-cores 4 --executor-memory 5g --executor-cores 3 /Users/ruicheng/PycharmProjects/movieLens/SparkAlsRecommend/sparkAlsRecommend.py
+spark-submit --py-files /movieLens/movieLensSql.py --master spark://ruichengdeMacBook-Pro.local:7077 --total-executor-cores 4 --executor-memory 5g --executor-cores 3 /movieLens/SparkAlsRecommend/sparkAlsRecommend.py
 '''
 import findspark
 
